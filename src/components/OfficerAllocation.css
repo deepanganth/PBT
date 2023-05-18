@@ -1,0 +1,146 @@
+.oa-map {
+  overflow: hidden;
+  color: white;
+  width: 75%;
+  height: 100%;
+}
+.oa-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.oa-setting {
+  width: 30%;
+  height: 100%;
+  box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5) inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #19376d;
+}
+.oa-setting input {
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: #05050554;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.oa-coordinates {
+  font-size: 1rem;
+  width: 70%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.oa-btns {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.oa-btns button {
+  font-size: 1.25rem;
+  width: 15rem;
+  height: 3rem;
+  background-color: #559f588e;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+}
+
+.oa-btns button:hover {
+  background-color: #559f58;
+}
+
+.oa-cc-btns {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.oa-cc-btns button {
+  font-size: 1.25rem;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #559f588e;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+}
+
+.oa-cc-btns button:nth-child(1) {
+  background-color: #559f588e;
+}
+.oa-cc-btns button:nth-child(1):hover {
+  background-color: #559f58;
+}
+
+.oa-cc-btns button:nth-child(2) {
+  background-color: #b462628e;
+}
+.oa-cc-btns button:nth-child(2):hover {
+  background-color: #b46262;
+}
+
+.oa-display-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  max-height: 50%; /* Adjust the height as per your needs */
+  overflow-y: auto;
+  background-color: #05050554;
+  flex-shrink: 0;
+}
+
+
+
+
+.oa-display-list p{
+  font-size: 1rem;
+}
+
+.oa-display-list button{
+  font-size: 1rem;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: #b462628e;
+}
+
+.oa-display-list button:hover {
+  background-color: #b46262;
+}
+
+
+/* width and height of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #05050554;
+}
+
+/* color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #3661b3;
+  border-radius: 5px;
+}
